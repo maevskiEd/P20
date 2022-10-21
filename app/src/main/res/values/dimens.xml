@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginTopQuote">2dp</dimen>
+    <dimen name="marginBottomQuote">2dp</dimen>
+    <dimen name="marginTopBottomQuote">2dp</dimen>
+    <dimen name="textSizeQuote">15sp</dimen>
+    <dimen name="heightImageViewAvatar">200dp</dimen>
+</resources>
