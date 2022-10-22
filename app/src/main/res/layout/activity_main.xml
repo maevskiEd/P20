@@ -26,7 +26,7 @@
             android:layout_marginTop="@dimen/marginTopQuote"
             android:layout_marginBottom="@dimen/marginBottomQuote"
             android:textColor="@color/teal_700"
-            android:textSize="15sp"
+            android:textSize="@dimen/textSizeQuote"
             android:text="@string/quote1" />
         <TextView
             android:id="@+id/textView2"
@@ -35,7 +35,7 @@
             android:layout_marginTop="@dimen/marginTopQuote"
             android:layout_marginBottom="@dimen/marginBottomQuote"
             android:textColor="@color/teal_700"
-            android:textSize="15sp"
+            android:textSize="@dimen/textSizeQuote"
             android:text="@string/quote2" />
         <TextView
             android:id="@+id/textView3"
@@ -44,7 +44,7 @@
             android:layout_marginTop="@dimen/marginTopQuote"
             android:layout_marginBottom="@dimen/marginBottomQuote"
             android:textColor="@color/teal_700"
-            android:textSize="15sp"
+            android:textSize="@dimen/textSizeQuote"
             android:text="@string/quote3" />
         <TextView
             android:id="@+id/textView4"
@@ -53,7 +53,7 @@
             android:layout_marginTop="@dimen/marginTopQuote"
             android:layout_marginBottom="@dimen/marginBottomQuote"
             android:textColor="@color/teal_700"
-            android:textSize="15sp"
+            android:textSize="@dimen/textSizeQuote"
             android:text="@string/quote4" />
         <TextView
             android:id="@+id/textView5"
@@ -62,7 +62,7 @@
             android:layout_marginTop="@dimen/marginTopQuote"
             android:layout_marginBottom="@dimen/marginBottomQuote"
             android:textColor="@color/teal_700"
-            android:textSize="15sp"
+            android:textSize="@dimen/textSizeQuote"
             android:text="@string/quote5" />
         <TextView
             android:id="@+id/textView6"
@@ -71,7 +71,7 @@
             android:layout_marginTop="@dimen/marginTopQuote"
             android:layout_marginBottom="@dimen/marginBottomQuote"
             android:textColor="@color/teal_700"
-            android:textSize="15sp"
+            android:textSize="@dimen/textSizeQuote"
             android:text="@string/quote6" />
         <TextView
             android:id="@+id/textView7"
@@ -80,7 +80,7 @@
             android:layout_marginTop="@dimen/marginTopQuote"
             android:layout_marginBottom="@dimen/marginBottomQuote"
             android:textColor="@color/teal_700"
-            android:textSize="15sp"
+            android:textSize="@dimen/textSizeQuote"
             android:text="@string/quote7" />
 
         <Button
