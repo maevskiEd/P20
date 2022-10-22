@@ -30,13 +30,6 @@
 
         </androidx.cardview.widget.CardView>
 
-<!--        <ImageView
-            android:id="@+id/avatar2"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/heightImageViewAvatar"
-            android:background="@drawable/rectavatar"
-            android:src="@drawable/boy" />-->
-
         <TextView
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
