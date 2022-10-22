@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
     android:layout_gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -19,77 +19,85 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/heightImageViewAvatar"
             android:src="@drawable/boy" />
+
         <TextView
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/marginTopQuote"
             android:layout_marginBottom="@dimen/marginBottomQuote"
+            android:text="@string/quote1"
             android:textColor="@color/teal_700"
-            android:textSize="@dimen/textSizeQuote"
-            android:text="@string/quote1" />
+            android:textSize="@dimen/textSizeQuote" />
+
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/marginTopQuote"
             android:layout_marginBottom="@dimen/marginBottomQuote"
+            android:text="@string/quote2"
             android:textColor="@color/teal_700"
-            android:textSize="@dimen/textSizeQuote"
-            android:text="@string/quote2" />
+            android:textSize="@dimen/textSizeQuote" />
+
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/marginTopQuote"
             android:layout_marginBottom="@dimen/marginBottomQuote"
+            android:text="@string/quote3"
             android:textColor="@color/teal_700"
-            android:textSize="@dimen/textSizeQuote"
-            android:text="@string/quote3" />
+            android:textSize="@dimen/textSizeQuote" />
+
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/marginTopQuote"
             android:layout_marginBottom="@dimen/marginBottomQuote"
+            android:text="@string/quote4"
             android:textColor="@color/teal_700"
-            android:textSize="@dimen/textSizeQuote"
-            android:text="@string/quote4" />
+            android:textSize="@dimen/textSizeQuote" />
+
         <TextView
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/marginTopQuote"
             android:layout_marginBottom="@dimen/marginBottomQuote"
+            android:text="@string/quote5"
             android:textColor="@color/teal_700"
-            android:textSize="@dimen/textSizeQuote"
-            android:text="@string/quote5" />
+            android:textSize="@dimen/textSizeQuote" />
+
         <TextView
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/marginTopQuote"
             android:layout_marginBottom="@dimen/marginBottomQuote"
+            android:text="@string/quote6"
             android:textColor="@color/teal_700"
-            android:textSize="@dimen/textSizeQuote"
-            android:text="@string/quote6" />
+            android:textSize="@dimen/textSizeQuote" />
+
         <TextView
             android:id="@+id/textView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/marginTopQuote"
             android:layout_marginBottom="@dimen/marginBottomQuote"
+            android:text="@string/quote7"
             android:textColor="@color/teal_700"
-            android:textSize="@dimen/textSizeQuote"
-            android:text="@string/quote7" />
+            android:textSize="@dimen/textSizeQuote" />
 
         <Button
             android:id="@+id/buttonKosmos"
-
-            android:background="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/buttonKosmos" />
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:text="@string/buttonKosmos"
+            android:textColor="@color/black"
+            app:backgroundTint="@null" />
 
     </LinearLayout>
 </FrameLayout>
